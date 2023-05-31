@@ -17,9 +17,13 @@
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição!!</p>
     <script>
-        window.alert('Minha primeira mensagem!') // abrir uma janela de alerta com uma mensagem
-        window.confirm('Está gostando de JS') //Janela com botão ok e cancelar
-        window.prompt('Qual seu nome?') // vai perguntar o nome...
+        var n1 = Number.parseInt(window.prompt('Digite um numero'))
+
+        var n2 = Number.parseInt(window.prompt('Digite outro numero'))
+
+        var s = n1 + n2
+
+        window.alert(`A soma entre ${n1} + ${n2} e igual a ${s}`)
     </script>
 </body>
 </html>
